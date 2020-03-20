@@ -105,7 +105,9 @@ bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
 
 asdf plugin-list
 asdf list-all nodejs
-asdf install nodejs latest
+asdf install nodejs 13.11.0
+asdf global nodejs 13.11.0
+
 
 ```
 
