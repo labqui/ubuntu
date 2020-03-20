@@ -1,4 +1,4 @@
-<img src="ubuntu.webp" width="120" height="100">
+<img src="m.webp" width="120" height="100">
 
 # Configurações do Mouse
 
