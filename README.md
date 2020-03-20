@@ -100,6 +100,12 @@ git checkout "$(git describe --abbrev=0 --tags)"
 echo -e '\n. $HOME/.asdf/asdf.sh' >> ~/.bashrc
 echo -e '\n. $HOME/.asdf/completions/asdf.bash' >> ~/.bashrc
 
+
+```
+Como exemplo, instalar o NODE:
+
+```
+
 asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
 
