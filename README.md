@@ -8,7 +8,7 @@
 sudo apt-get update
 sudo apt-get upgrade
 
-sudo apt install git -y
+sudo apt install build-essential default-jdk libssl-dev exuberant-ctags ncurses-term ack-grep silversearcher-ag fontconfig imagemagick libmagickwand-dev software-properties-common git vim-gtk3 curl -y
 
 
 ```
@@ -78,11 +78,11 @@ imwheel
 
 # Configuração do Teclado RGB
 
-´´´
+```
+sudo cd ~/Documents
 sudo apt-get install build-essential libudev-dev qt5-default zlib1g-dev libappindicator-dev
 
-git clone https://github.com/ccMSC/ckb.git && cd ckb
-sudo ./quickinstall -y
-cd ..
-sudo rm ./ckb -r
-´´´ 
+git clone https://github.com/ccMSC/ckb.git ./ckb && cd ckb
+sudo ./quickinstall && cd ..
+sudo rm -f ./ckb -r
+``` 
