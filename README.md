@@ -1,4 +1,6 @@
-<img src="m.webp" width="120" height="90">
+<div style="text-align:center">
+    <img src="m.webp" width="120" height="90">
+</div>
 
 # Configurações do Mouse
 
