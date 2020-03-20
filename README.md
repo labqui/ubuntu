@@ -1,4 +1,4 @@
-<div style="text-align:center">
+<div style="text-align:center; width:100%">
     <img src="m.webp" width="120" height="90">
 </div>
 
