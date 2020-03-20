@@ -75,10 +75,12 @@ echo ".*" >> ~/.imwheelrc
 echo "    None, Up, Button4, 8" >> ~/.imwheelrc
 echo "    None, Down, Button5, 8" >> ~/.imwheelrc
 imwheel
+```
 
 # Configuração do Teclado RGB
 
 ```
+
 sudo cd ~/Documents
 sudo apt-get install build-essential libudev-dev qt5-default zlib1g-dev libappindicator-dev
 
