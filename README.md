@@ -85,4 +85,5 @@ sudo apt-get install build-essential libudev-dev qt5-default zlib1g-dev libappin
 git clone https://github.com/ccMSC/ckb.git ./ckb && cd ckb
 sudo ./quickinstall && cd ..
 sudo rm -f ./ckb -r
-``` 
+
+```
