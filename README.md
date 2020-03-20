@@ -24,6 +24,11 @@ git clone https://github.com/daniruiz/flat-remix-gtk
 mkdir -p ~/.icons && mkdir -p ~/.themes
 cp -r flat-remix/Flat-Remix* ~/.icons/ && cp -r flat-remix-gtk/Flat-Remix-GTK* ~/.themes/
 sudo apt install gnome-tweak-tool fonts-hack-ttf -y
+
+gsettings set org.gnome.desktop.interface gtk-theme "Flat-Remix-GTK-Blue-Dark"
+gsettings set org.gnome.desktop.interface icon-theme 'Flat-Remix--Blue-Dark'
+gsettings set org.gnome.desktop.wm.preferences theme "Flat-Remix-GTK-Blue-Dark"
+
 gnome-tweak
 ```
 
