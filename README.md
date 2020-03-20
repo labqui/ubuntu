@@ -1,5 +1,5 @@
 <div style="text-align:center; width:100%">
-    <img src="m.webp" width="120" height="90">
+    <img src="m.webp" width="144" height="112">
 </div>
 
 # Configurações do Mouse
