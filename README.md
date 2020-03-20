@@ -23,6 +23,10 @@ git clone https://github.com/daniruiz/flat-remix
 git clone https://github.com/daniruiz/flat-remix-gtk
 mkdir -p ~/.icons && mkdir -p ~/.themes
 cp -r flat-remix/Flat-Remix* ~/.icons/ && cp -r flat-remix-gtk/Flat-Remix-GTK* ~/.themes/
+
+sudo rm flat-remix -r
+sudo rm flat-remix-gtk -r
+
 sudo apt install gnome-tweak-tool fonts-hack-ttf -y
 
 gsettings set org.gnome.desktop.interface gtk-theme "Flat-Remix-GTK-Blue-Dark"
@@ -71,3 +75,14 @@ echo ".*" >> ~/.imwheelrc
 echo "    None, Up, Button4, 8" >> ~/.imwheelrc
 echo "    None, Down, Button5, 8" >> ~/.imwheelrc
 imwheel
+
+# Configuração do Teclado RGB
+
+´´´
+sudo apt-get install build-essential libudev-dev qt5-default zlib1g-dev libappindicator-dev
+
+git clone https://github.com/ccMSC/ckb.git && cd ckb
+sudo ./quickinstall -y
+cd ..
+sudo rm ./ckb -r
+´´´ 
