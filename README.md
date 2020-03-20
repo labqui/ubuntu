@@ -117,3 +117,8 @@ asdf global nodejs 13.11.0
 
 ```
 
+PHP:
+
+```
+asdf plugin-add php https://github.com/asdf-community/asdf-php.git
+```
