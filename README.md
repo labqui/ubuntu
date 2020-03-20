@@ -18,7 +18,7 @@ sudo apt install git -y
 
 ```
 cd ~/Documents
-mkdir Projects && Projects
+mkdir Projects && cd Projects
 git clone https://github.com/daniruiz/flat-remix
 git clone https://github.com/daniruiz/flat-remix-gtk
 mkdir -p ~/.icons && mkdir -p ~/.themes
