@@ -1,6 +1,6 @@
-<div style="text-align:center; width:100%">
+<p align="center">
     <img src="m.webp" width="144" height="112">
-</div>
+</p>
 
 # Dependências Iniciais
 
