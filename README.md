@@ -1,0 +1,2 @@
+# ubuntu
+Configurações do Ubuntu
