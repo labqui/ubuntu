@@ -23,28 +23,13 @@ git clone https://github.com/daniruiz/flat-remix
 git clone https://github.com/daniruiz/flat-remix-gtk
 mkdir -p ~/.icons && mkdir -p ~/.themes
 cp -r flat-remix/Flat-Remix* ~/.icons/ && cp -r flat-remix-gtk/Flat-Remix-GTK* ~/.themes/
-gnome-tweaks-tool
+sudo apt install gnome-tweak-tool fonts-hack-ttf -y
+gnome-tweak
 
 
 sudo add-apt-repository ppa:daniruiz/flat-remix
 sudo apt-get update
 sudo apt-get install flat-remix-gnome
-```
-
-# Configurações do Mouse
-
-```
-sudo apt install imwheel
-
-gedit ~/.imwheelrc
-
-```
-Conteúdo para o wheel será
-```
-# Speed up scrolling for the document viewer
-".*"
-    None, Up, Button4, 8
-    None, Down, Button5, 8
 ```
 
 # Fonts
@@ -75,4 +60,21 @@ done
 
 echo "fc-cache -f"
 fc-cache -f
+```
+
+
+# Configurações do Mouse
+
+```
+sudo apt install imwheel
+
+gedit ~/.imwheelrc
+
+```
+Conteúdo para o wheel será
+```
+# Speed up scrolling for the document viewer
+".*"
+    None, Up, Button4, 8
+    None, Down, Button5, 8
 ```
