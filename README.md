@@ -71,7 +71,8 @@ fc-cache -f
 
 ```
 sudo apt install imwheel
-echo ".*" >> ~/.imwheelrc
+sudo rm ~/.imwheelrc
+echo ".*" > ~/.imwheelrc
 echo "    None, Up, Button4, 8" >> ~/.imwheelrc
 echo "    None, Down, Button5, 8" >> ~/.imwheelrc
 imwheel
