@@ -123,3 +123,9 @@ PHP:
 ```
 asdf plugin-add php https://github.com/asdf-community/asdf-php.git
 ```
+
+SSH:
+```
+sudo apt-get purge openssh-server
+sudo apt-get install openssh-server
+```
