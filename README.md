@@ -6,7 +6,7 @@
 
 ```
 sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get upgrade -y
 
 sudo apt install build-essential default-jdk libssl-dev exuberant-ctags ncurses-term ack-grep silversearcher-ag fontconfig imagemagick libmagickwand-dev software-properties-common git vim-gtk3 curl -y
 
@@ -30,10 +30,12 @@ sudo rm flat-remix-gtk -r
 sudo apt install gnome-tweak-tool fonts-hack-ttf -y
 
 gsettings set org.gnome.desktop.interface gtk-theme "Flat-Remix-GTK-Blue-Dark"
-gsettings set org.gnome.desktop.interface icon-theme 'Flat-Remix--Blue-Dark'
+gsettings set org.gnome.desktop.interface icon-theme 'Flat-Remix-Blue-Dark'
+gsettings set org.gnome.desktop.interface cursor-theme 'DMZ-White'
 gsettings set org.gnome.desktop.wm.preferences theme "Flat-Remix-GTK-Blue-Dark"
+gsettings set org.gnome.desktop.background picture-uri 'file://FILE'
 
-gnome-tweak
+gnome-tweaks
 ```
 
 # Fonts
@@ -83,7 +85,7 @@ imwheel
 ```
 
 sudo cd ~/Documents
-sudo apt-get install build-essential libudev-dev qt5-default zlib1g-dev libappindicator-dev
+sudo apt-get install build-essential libudev-dev qt5-default zlib1g-dev libappindicator-dev -y
 
 git clone https://github.com/ccMSC/ckb.git ./ckb && cd ckb
 sudo ./quickinstall && cd ..
