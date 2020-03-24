@@ -35,6 +35,10 @@ gsettings set org.gnome.desktop.interface cursor-theme 'DMZ-White'
 gsettings set org.gnome.desktop.wm.preferences theme "Flat-Remix-GTK-Blue-Dark"
 gsettings set org.gnome.desktop.background picture-uri 'file://FILE'
 
+curl 'https://raw.githubusercontent.com/labqui/ubuntu/master/60315.jpg' -o ~/Pictures/background.jpg
+gsettings set org.gnome.desktop.background picture-uri ~/Pictures/background.jpg
+
+
 gnome-tweaks
 ```
 
