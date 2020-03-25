@@ -131,6 +131,5 @@ asdf global php 7.4.4
 
 SSH:
 ```
-sudo apt-get purge openssh-server
 sudo apt-get install openssh-server
 ```
