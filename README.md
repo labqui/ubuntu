@@ -109,19 +109,24 @@ echo -e '\n. $HOME/.asdf/completions/asdf.bash' >> ~/.bashrc
 
 
 ```
-Como exemplo, instalar o NODE:
+Como exemplo, instalar o:
 
 ```
+asdf plugin-list
 
+# NodeJS
 asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
 
-asdf plugin-list
 asdf list-all nodejs
 asdf install nodejs 13.11.0
 asdf global nodejs 13.11.0
 
-
+# PHP
+asdf plugin-add php https://github.com/asdf-community/asdf-php.git
+asdf list-all php
+asdf install php 7.4.4
+asdf global php 7.4.4
 ```
 
 PHP:
