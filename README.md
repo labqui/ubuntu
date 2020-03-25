@@ -129,12 +129,6 @@ asdf install php 7.4.4
 asdf global php 7.4.4
 ```
 
-PHP:
-
-```
-asdf plugin-add php https://github.com/asdf-community/asdf-php.git
-```
-
 SSH:
 ```
 sudo apt-get purge openssh-server
