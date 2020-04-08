@@ -42,6 +42,14 @@ gsettings set org.gnome.desktop.background picture-uri ~/Pictures/background.jpg
 gnome-tweaks
 ```
 
+
+```
+sudo apt install dconf-editor
+#Procurar por "dash-to"
+#Editar o "click-action" para mudar o comportamento do dock quando se clica no ícone
+# configurar pra minimize-or-preview
+```
+
 # Fonts
 
 FiraCode
