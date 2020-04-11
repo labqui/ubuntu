@@ -149,6 +149,4 @@ sudo apt-get install openssh-server
  
  # rodando .sh no click
  gsettings set org.gnome.nautilus.preferences executable-text-activation 'launch'
-
- 
 ```
