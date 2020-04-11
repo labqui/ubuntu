@@ -141,3 +141,10 @@ SSH:
 ```
 sudo apt-get install openssh-server
 ```
+
+```
+ sudo apt install wicd-gtk -y
+ sudo apt remove network-manager-gnome network-manager -y
+ sudo dpkg --purge network-manager-gnome network-manager -y
+ 
+```
