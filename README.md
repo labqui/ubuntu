@@ -8,7 +8,7 @@
 sudo apt-get update
 sudo apt-get upgrade -y
 
-sudo apt install build-essential default-jdk libssl-dev exuberant-ctags ncurses-term ack-grep silversearcher-ag fontconfig imagemagick libmagickwand-dev software-properties-common git vim-gtk3 curl -y
+sudo apt install build-essential default-jdk libssl-dev exuberant-ctags ncurses-term ack-grep silversearcher-ag fontconfig imagemagick libmagickwand-dev software-properties-common git vim-gtk3 curl dconf-editor -y
 
 
 ```
@@ -145,6 +145,10 @@ sudo apt-get install openssh-server
 ```
  sudo apt install wicd-gtk -y
  sudo apt remove network-manager-gnome network-manager -y
- sudo dpkg --purge network-manager-gnome network-manager -y
+ sudo dpkg --purge network-manager-gnome network-manager
+ 
+ # rodando .sh no click
+ gsettings set org.gnome.nautilus.preferences executable-text-activation 'launch'
+
  
 ```
