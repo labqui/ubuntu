@@ -45,6 +45,7 @@ gnome-tweaks
 
 ```
 sudo apt install dconf-editor
+dconf-editor
 #Procurar por "dash-to"
 #Editar o "click-action" para mudar o comportamento do dock quando se clica no ícone
 # configurar pra minimize-or-preview
@@ -87,22 +88,9 @@ fc-cache -f
 sudo apt install imwheel
 sudo rm ~/.imwheelrc
 echo "\".*\"" > ~/.imwheelrc
-echo "    None, Up, Button4, 6" >> ~/.imwheelrc
-echo "    None, Down, Button5, 6" >> ~/.imwheelrc
+echo "    None, Up, Button4, 4" >> ~/.imwheelrc
+echo "    None, Down, Button5, 4" >> ~/.imwheelrc
 imwheel
-```
-
-# Configuração do Teclado RGB
-
-```
-
-sudo cd ~/Documents
-sudo apt-get install build-essential libudev-dev qt5-default zlib1g-dev libappindicator-dev -y
-
-git clone https://github.com/ccMSC/ckb.git ./ckb && cd ckb
-sudo ./quickinstall && cd ..
-sudo rm -f ./ckb -r
-
 ```
 
 # Ambientes Virtuais
