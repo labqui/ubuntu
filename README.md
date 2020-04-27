@@ -35,6 +35,17 @@ gsettings set org.gnome.desktop.interface cursor-theme 'DMZ-White'
 gsettings set org.gnome.desktop.wm.preferences theme "Flat-Remix-GTK-Blue-Dark"
 gsettings set org.gnome.desktop.background picture-uri 'file://FILE'
 
+
+gsettings set org.gnome.desktop.background picture-options 'stretched'
+gsettings set org.gnome.desktop.background primary-color '#898989'
+gsettings set org.gnome.desktop.background secondary-color '#d8d8d8'
+# desabilita a animação do menu
+gsettings set org.gnome.shell.extensions.dash-to-dock animate-show-apps 'false'
+# ação no botão do dock
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'focus-or-previews'
+
+
+
 curl 'https://raw.githubusercontent.com/labqui/ubuntu/master/60315.jpg' -o ~/Pictures/background.jpg
 gsettings set org.gnome.desktop.background picture-uri ~/Pictures/background.jpg
 
