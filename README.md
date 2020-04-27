@@ -109,6 +109,8 @@ Como exemplo, instalar o:
 
 ```
 asdf plugin-list
+# Python
+asdf plugin-add python
 
 # NodeJS
 asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs.git
