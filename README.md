@@ -44,9 +44,9 @@ gsettings set org.gnome.shell.extensions.dash-to-dock animate-show-apps 'false'
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'focus-or-previews'
 
 
-
-curl 'https://raw.githubusercontent.com/labqui/ubuntu/master/60315.jpg' -o ~/Pictures/background.jpg
-gsettings set org.gnome.desktop.background picture-uri ~/Pictures/background.jpg
+mkdir -p $HOME/Pictures
+curl 'https://raw.githubusercontent.com/labqui/ubuntu/master/60315.jpg' -o $HOME/Pictures/background.jpg
+gsettings set org.gnome.desktop.background picture-uri $HOME/Pictures/background.jpg
 
 
 gnome-tweaks
