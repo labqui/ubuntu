@@ -13,6 +13,11 @@ sudo apt install build-essential default-jdk libssl-dev exuberant-ctags ncurses-
 ```
 
 
+# Configurações do GRUB
+```
+sudo apt install grub-customizer
+```  
+
 # Theme Ubuntu
 
 ```
