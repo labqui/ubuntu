@@ -47,6 +47,8 @@ gsettings set org.gnome.desktop.background secondary-color '#d8d8d8'
 gsettings set org.gnome.shell.extensions.dash-to-dock animate-show-apps 'false'
 # ação no botão do dock
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'focus-or-previews'
+gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize,close"
+
 
 
 mkdir -p $HOME/Pictures
