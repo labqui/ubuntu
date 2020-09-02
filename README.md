@@ -8,7 +8,7 @@
 sudo apt-get update -y
 sudo apt-get upgrade
 
-sudo apt install wget build-essential default-jdk libssl-dev exuberant-ctags ncurses-term ack-grep silversearcher-ag fontconfig imagemagick libmagickwand-dev software-properties-common git vim-gtk3 curl dconf-editor indicator-multiload
+sudo apt install wget git build-essential default-jdk libssl-dev exuberant-ctags ncurses-term ack-grep silversearcher-ag fontconfig imagemagick libmagickwand-dev software-properties-common git vim-gtk3 curl dconf-editor indicator-multiload
 
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
