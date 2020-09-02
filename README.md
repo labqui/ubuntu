@@ -165,6 +165,13 @@ sudo apt update && sudo apt install yarn
 sudo apt update && sudo apt install --no-install-recommends yarn
 ```
 
+```
+sudo add-apt-repository ppa:chrdevs/figma
+sudo apt update
+sudo apt-key adv --recv-key --keyserver keyserver.ubuntu.com 70F3445E637983CC
+sudo apt install figma-linux-beta -y
+```
+
 SSH:
 ```
 sudo apt-get install openssh-server
