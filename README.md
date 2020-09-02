@@ -13,6 +13,7 @@ sudo apt install wget git build-essential default-jdk libssl-dev exuberant-ctags
 cd ~/Downloads
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
+sudo rm google-chrome-stable_current_amd64.deb
 google-chrome
 
 ```
@@ -144,13 +145,24 @@ bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
 
 asdf list-all nodejs
 asdf install nodejs 13.11.0
-asdf global nodejs 13.11.0
+asdf global nodejs asdf global nodejs 13.11.0
 
 # PHP
 asdf plugin-add php https://github.com/asdf-community/asdf-php.git
 asdf list-all php
 asdf install php 7.4.4
 asdf global php 7.4.4
+```
+
+
+Yarn
+```
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+
+sudo apt update && sudo apt install yarn
+
+sudo apt update && sudo apt install --no-install-recommends yarn
 ```
 
 SSH:
