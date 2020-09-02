@@ -53,7 +53,11 @@ gsettings set org.gnome.shell.extensions.dash-to-dock animate-show-apps 'false'
 # ação no botão do dock
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'focus-or-previews'
 gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize,close"
-
+# fontes
+gsettings set org.gnome.desktop.interface document-font-name 'Hack 11'
+gsettings set org.gnome.desktop.interface font-name 'Hack 11'
+gsettings set org.gnome.desktop.interface monospace-font-name 'Hack 11'
+gsettings set org.gnome.nautilus.desktop font 'Hack 11'
 
 
 mkdir -p $HOME/Pictures
