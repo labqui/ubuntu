@@ -145,7 +145,8 @@ bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
 
 asdf list-all nodejs
 asdf install nodejs 13.11.0
-asdf global nodejs asdf global nodejs 13.11.0
+asdf global nodejs 
+asdf global nodejs 13.11.0
 
 # PHP
 asdf plugin-add php https://github.com/asdf-community/asdf-php.git
@@ -154,6 +155,11 @@ asdf install php 7.4.4
 asdf global php 7.4.4
 ```
 
+```
+sudo add-apt-repository -y ppa:linuxgndu/sqlitebrowser
+sudo apt-get update
+sudo apt-get install sqlitebrowser -y
+```
 
 Yarn
 ```
