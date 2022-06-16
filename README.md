@@ -113,9 +113,15 @@ t
 Como exemplo, instalar o:
 
 ```
+# Lista os plugin disponíveis.
 asdf plugin-list
-# Python
+# Para adicionar o plugin python:
 asdf plugin-add python
+# Lista as versões disponíveis
+asdf list-all nodejs
+# Instala uma versão:
+asdf install nodejs 13.11.0
+
 
 # NodeJS
 asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs.git
