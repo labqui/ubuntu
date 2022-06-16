@@ -101,12 +101,12 @@ imwheel
 # Ambientes Virtuais
 
 ```
-git clone https://github.com/asdf-vm/asdf.git ~/.asdf
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.10.0
 cd ~/.asdf
 git checkout "$(git describe --abbrev=0 --tags)"
 
 echo -e '\n. $HOME/.asdf/asdf.sh' >> ~/.bashrc
-echo -e '\n. $HOME/.asdf/completions/asdf.bash' >> ~/.bashrc
+t
 
 
 ```
@@ -148,6 +148,8 @@ sudo apt update && sudo apt install yarn
 
 sudo apt update && sudo apt install --no-install-recommends yarn
 ```
+
+Figma
 
 ```
 sudo add-apt-repository ppa:chrdevs/figma
