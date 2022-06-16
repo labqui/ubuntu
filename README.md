@@ -112,16 +112,19 @@ t
 ```
 Como exemplo, instalar o:
 
-```
-# Lista os plugin disponíveis.
-asdf plugin-list
-# Para adicionar o plugin python:
+```shell
+# adiciona um plugin, neste caso o python
 asdf plugin-add python
-# Lista as versões disponíveis
-asdf list-all nodejs
-# Instala uma versão:
-asdf install nodejs 13.11.0
+# mostra todas as versões disponíveis para o plugin
+asdf list-all python
+# instala uma versão escolhida do python
+asdf install python 3.10
+# define o python 3.10 para global version
+asdf global python 3.10
 
+# Caso navegue até o diretório, é possível definir configurações locais de versão. Substitua o global por local.
+
+# Outros interpretadores:
 
 # NodeJS
 asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs.git
